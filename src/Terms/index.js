@@ -37,6 +37,21 @@ export const Terms = ({ match }) => (
 							to={`${match.url}/privacy`}
 							exact={true}
 						/>
+						<Redirect
+							from={`${match.url}`}
+							to={`${match.url}/copyright`}
+							exact={true}
+						/>
+						<Redirect
+							from={`${match.url}`}
+							to={`${match.url}/arstist-policy`}
+							exact={true}
+						/>
+						<Redirect
+							from={`${match.url}`}
+							to={`${match.url}/tos`}
+							exact={true}
+						/>
 						<Route path={`${match.url}/tos`} component={Tos} />
 						<Route path={`${match.url}/arstist-policy`} component={Arp} />
 						<Route path={`${match.url}/copyright`} component={Copyright} />

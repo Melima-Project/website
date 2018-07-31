@@ -658,6 +658,7 @@ Notwithstanding the provisions of this Section, either party may seek judicial r
 			</pre>
 	</Section>
 	</Fragment>
+);
 
 export const Copyright = () => (
 	<Fragment>
