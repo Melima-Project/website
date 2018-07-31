@@ -9,7 +9,7 @@ import { Footer } from '@/shared/Footer';
 import { Strip } from '@/shared/Strip';
 import { GetStarted } from '@/shared/GetStarted';
 import { BannerTitle } from '@/shared/Banner';
-import { Toc } from './Toc';
+import { Toc, Tos, Arp, Copyright } from './Toc';
 import { TermsBanner } from './styles';
 
 export const Terms = ({ match }) => (
@@ -18,9 +18,17 @@ export const Terms = ({ match }) => (
 		<Main>
 			<Content hasBg={true}>
 				<TermsBanner isCenter={true}>
-					<BannerTitle>Privacy Policy</BannerTitle>
+					<BannerTitle>Legal</BannerTitle>
 				</TermsBanner>
 			</Content>
+			<Box>
+				<Nav>
+					<NavLink to={`${match.url}/tos`}>TOS</NavLink>
+					<NavLink to={`${match.url}/arstist-policy`}>Artist Policy</NavLink>
+					<NavLink to={`${match.url}/copyright`}>Copyright Policy</NavLink>
+					<NavLink to={`${match.url}/privacy`}>Privacy Policy</NavLink>
+				</Nav>
+			</Box>
 			<Strip>
 				<Content>
 					<Switch>
@@ -29,6 +37,9 @@ export const Terms = ({ match }) => (
 							to={`${match.url}/privacy`}
 							exact={true}
 						/>
+						<Route path={`${match.url}/tos`} component={Tos} />
+						<Route path={`${match.url}/arstist-policy`} component={Arp} />
+						<Route path={`${match.url}/copyright`} component={Copyright} />
 						<Route path={`${match.url}/privacy`} component={Toc} />
 					</Switch>
 				</Content>
