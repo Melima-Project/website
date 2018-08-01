@@ -706,7 +706,7 @@ If you own intellectual property other than copyrights and believe that your int
 <li> A statement that you have a good faith belief that use of the material in the manner asserted is not authorized by the owner of the intellectual property, its agent, or the law;</li>
 <li> A statement under penalty of perjury, that all the information in your notice is accurate, and that you are the owner of the intellectual property at issue (or, if you are not the owner, then your statement must indicate that you are authorized to act on the behalf of the owner of the intellectual property); and,</li>
 <li> Your physical or electronic signature (typing your full name will serve as your electronic signature).</li></ol>
-Send this notice by email to: legal@musicoin.org 
+Send this notice by email to: <a href="mailto:legal@musicoin.org">legal@musicoin.org</a><p></p>
 MCF may elect not to respond to intellectual property infringement notifications that do not substantially comply with all of the foregoing requirements, and we may elect to remove allegedly infringing material that comes to its attention via notices that do not substantially comply with such requirements.
 Please note that these notifications are real-world legal notices. MCF may provide copies of such notices to the participants in the dispute or third parties, at our discretion and/or as required by law. The MCF Privacy Policy does not protect information provided in these notices.                
 </p>
