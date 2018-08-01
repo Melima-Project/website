@@ -11,6 +11,8 @@ import { GetStarted } from '@/shared/GetStarted';
 import { BannerTitle } from '@/shared/Banner';
 import { Toc, Tos, Arp, Copyright } from './Toc';
 import { TermsBanner } from './styles';
+import { Box } from '@/shared/Box';
+import { Nav, NavLink } from './Nav';
 
 export const Terms = ({ match }) => (
 	<Page>
