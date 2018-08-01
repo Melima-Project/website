@@ -34,6 +34,11 @@ export const Terms = ({ match }) => (
 			<Strip>
 				<Content>
 					<Switch>
+					<Redirect
+							from={`${match.url}`}
+							to={`${match.url}/legal`}
+							exact={true}
+						/>
 						<Redirect
 							from={`${match.url}`}
 							to={`${match.url}/privacy`}
@@ -55,6 +60,7 @@ export const Terms = ({ match }) => (
 							exact={true}
 						/>
 						<Route path={`${match.url}/tos`} component={Tos} />
+						<Route path={`${match.url}/legal`} component={Tos} />
 						<Route path={`${match.url}/artist-policy`} component={Arp} />
 						<Route path={`${match.url}/copyright`} component={Copyright} />
 						<Route path={`${match.url}/privacy`} component={Toc} />

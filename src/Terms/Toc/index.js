@@ -424,7 +424,7 @@ export const Arp = () => (
 		<SecondaryHeading level={2} isCenter={true}>Artist Content Policy
 		</SecondaryHeading>
 	  <p>
-This USER GENERATED AND ARTIST CONTENT POLICY is effective as of August 3, 2018 and applies to all Accounts and Content shared or streamed using the Service as such terms are defined in the Terms of Service Agreement (“Terms”).
+This <b>USER GENERATED AND ARTIST CONTENT POLICY</b> is effective as of August 3, 2018 and applies to all Accounts and Content shared or streamed using the Service as such terms are defined in the Terms of Service Agreement (“Terms”).
 
 This policy is in force regarding all Content made available using any Account as such terms are defined under the Terms. 
 
@@ -666,7 +666,7 @@ export const Copyright = () => (
 Musicoin Foundation (“MCF”) will respond to notices of alleged infringement that comply with the DMCA and other applicable laws. 
 The following notice requirements are intended to comply with MCF rights and obligations under the DMCA and, in particular, section 512(c), and do not constitute legal advice. Before serving either a Notice of Infringing Material or Counter-Notification, you may wish to contact a lawyer to better understand your rights and obligations under the DMCA and other applicable laws. 
 As part of our response, we may remove or disable access to material on our site that is claimed to be infringing, in which case we will make a good-faith attempt to contact the person who submitted the affected material so that they may make a counter notification, also in accordance with the DMCA.
-<p></p><b>Submit Notice of Infringing Material"></b><p></p>
+<p></p><b>Submit Notice of Infringing Material</b><p></p>
 To submit a notice of infringing material on our site, please provide a notification containing the following details:
 <ol>
 <li> Information that will enable us to identify the work claimed to be infringed or, if multiple works are claimed to be infringed, a representative list of such works (for example: title, author, any registration or tracking number, URL);</li>
@@ -676,9 +676,9 @@ To submit a notice of infringing material on our site, please provide a notifica
 <li> A statement, under penalty of perjury, that the information in the notification is accurate and that you are authorized to act on behalf of the owner of the exclusive right that is alleged to be infringed.</li>
 <li> Your physical or electronic signature.</li>
 </ol>
-Send this notice <b>by email</b> to:
-<a href="mailto:dmca@musicoin.org">dmca@musicoin.org</a>
-<b>Attention: DMCA Agent</b>
+Send this notice <b>by email</b> to:<p></p>
+<a href="mailto:dmca@musicoin.org">dmca@musicoin.org</a><p></p>
+<b>Attention: DMCA Agent</b><p></p>
 VIPO Inc., 145 Lincoln Road Brooklyn, NY 11225
 <p></p><b>Submitting Counter Notification"></b><p></p>
 If material that you have posted to a site controlled or operated by us has been taken down, you may file a counter-notification that contains the following details:
@@ -688,9 +688,9 @@ If material that you have posted to a site controlled or operated by us has been
 <li>Your name, address and telephone number;</li>
 <li>A statement that you consent to the jurisdiction of the Federal District Court for judicial district in which your address is located or, if your address is outside of the USA, for any judicial district in which Creative Commons may be found and that you will accept service of process from the person who submitted a notice in compliance with the section (c)(1)(C) of the DMCA, as generally described above;</li>
 <li>Your physical or electronic signature.</li></ol>
-Send this notice <b>by email</b> to:
-<a href="mailto:dmca@musicoin.org">dmca@musicoin.org</a>
-<b>Attention: DMCA Agent</b>
+Send this notice <b>by email</b> to:<p></p>
+<a href="mailto:dmca@musicoin.org">dmca@musicoin.org</a><p></p>
+<b>Attention: DMCA Agent</b><p></p>
 VIPO Inc., 145 Lincoln Road Brooklyn, NY 11225<p></p>
 Please be aware that under 17 U.S.C. § 512(f), you may be liable for any damages, including costs and attorneys' fees incurred by us or our users, if you knowingly, materially misrepresent that material or activity was removed or disabled by mistake or misidentification.
 Notwithstanding anything to the contrary contained in any portion of this Policy, the Terms of Service, or any other terms applicable to your use of the Service, we reserve the right to take no action upon receipt of any DMCA Counter-Notification. 
