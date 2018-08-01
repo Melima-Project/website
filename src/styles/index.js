@@ -68,7 +68,7 @@ injectGlobal`
 	}
 
 	b, strong {
-		font-weight: unset;
+		font-weight: 700;
 	}
 
 	a {
