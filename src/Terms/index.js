@@ -28,7 +28,7 @@ export const Terms = ({ match }) => (
 					<NavLink to={`${match.url}/tos`}>TOS</NavLink>
 					<NavLink to={`${match.url}/artist-policy`}>Artist Policy</NavLink>
 					<NavLink to={`${match.url}/copyright`}>Copyright Policy</NavLink>
-					<NavLink to={`${match.url}/privacy`}>Privacy Policy</NavLink>
+					<NavLink to={`${match.url}/legal`}>Privacy Policy</NavLink>
 				</Nav>
 			</Box>
 			<Strip>
@@ -37,11 +37,6 @@ export const Terms = ({ match }) => (
 					<Redirect
 							from={`${match.url}`}
 							to={`${match.url}/legal`}
-							exact={true}
-						/>
-						<Redirect
-							from={`${match.url}`}
-							to={`${match.url}/privacy`}
 							exact={true}
 						/>
 						<Redirect
@@ -60,10 +55,9 @@ export const Terms = ({ match }) => (
 							exact={true}
 						/>
 						<Route path={`${match.url}/tos`} component={Tos} />
-						<Route path={`${match.url}/legal`} component={Tos} />
 						<Route path={`${match.url}/artist-policy`} component={Arp} />
 						<Route path={`${match.url}/copyright`} component={Copyright} />
-						<Route path={`${match.url}/privacy`} component={Toc} />
+						<Route path={`${match.url}/legal`} component={Toc} />
 					</Switch>
 				</Content>
 				<aside>
